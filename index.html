@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comida Rápida</title>
+    <link rel="icon" href="assets/images/favicon.png" type="image/png" >
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="menu container">
+            <a href="#" class="logo">🍖 COMIDA RÁPIDA 🍖</a>
+
+            <input type="checkbox" id="menu" />
+            <label for="menu">
+                <img src="assets/images/menu.png" class="menu-icono" alt="Menu">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Servicios</a></li>
+                    <li><a href="#">Productos</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+            <div>
+                <ul>
+                    <li class="submenu">
+                        <img src="assets/images/car.svg" id="img-cart" alt="Carrito">
+                        <div id="cart">
+                            <table id="list-cart">
+                                <thead>
+                                    <tr>
+                                        <th>Imagen</th>
+                                        <th>Nombre</th>
+                                        <th>Precio</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                            <a href="#" class="btn-1">Vaciar Carrito</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="header-content container">
+            <div class="header-txt">
+                <span>Ofertas</span>
+                <h1>Comida Rápida</h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae corporis dolore expedita, sequi alias
+                    voluptatibus explicabo nulla quasi iusto excepturi, enim neque maxime ab, quis dolorum obcaecati
+                    veritatis inventore! Dicta!
+                </p>
+                <a href="#" class="btn-2">Información</a>
+            </div>
+            <div class="header-img">
+                <img src="assets/images/imggg.png" alt="">
+            </div>
+        </div>
+    </header>
+
+    <section class="information container">
+        <div class="information-content">
+            <div class="info">
+                <img src="assets/images/info1.png" alt="">
+                <h3>Lorem ips</h3>
+                <p>voluptatibus explicabo nulla quasi</p>
+            </div>
+
+            <div class="info">
+                <img src="assets/images/info2.png" alt="">
+                <h3>Lorem ips</h3>
+                <p>voluptatibus explicabo nulla quasi</p>
+            </div>
+
+            <div class="info">
+                <img src="assets/images/info3.png" alt="">
+                <h3>Lorem ips</h3>
+                <p>voluptatibus explicabo nulla quasi</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact">
+        <form>
+            <p>🗒️ MENU 🗒️</p>
+
+            <ul>
+                <li>🍔 Hamburguesas 🍔</li>
+                <li>🍟 Papas Fritas 🍟</li>
+                <li>🌭 Hot Dogs 🌭</li>
+                <li>🍕 Pizza 🍕</li>
+                <li>🥗 Ensalada 🥗</li>
+                <li>🍗 Pollo Asado 🍗</li>
+            </ul>
+
+            <label for="order">¿Qué desea ordenar?</label>
+            <input type="text" id="order" placeholder="Ingrese su pedido..." required></input>
+
+            <label for="name">Entregar a 😊:</label>
+            <input type="text" id="name" placeholder="Ingrese su nombre" required>
+
+            <label for="address">Dirección de entrega 🛻:</label>
+            <input type="text" id="address" placeholder="Ingrese su dirección" required>
+
+            <label for="references">Referencias del lugar ⭐:</label>
+            <input type="text" id="references" placeholder="Ingrese datos del lugar" required>
+
+            <button type="submit" class="btn-2">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <h3>Copyright &copy; by Guadalupe & Cristal</h3>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
